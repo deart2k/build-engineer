@@ -1,0 +1,11 @@
+version: '3'
+services:
+  linux:
+    image: "library/centos:centos7"
+    tty: true
+  ansible:
+    image: "williamyeh/ansible:debian9"
+    tty: true
+    entrypoint: /bin/bash
+    volumes:
+      - "./ansible-tasks:/ansible"
