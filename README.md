@@ -8,3 +8,4 @@
 * В каталоге ansible-tasks создать playbook, устанавливающий Jenkins в поднятую виртуальную машину
 * В поднятом Jenkins создать Jenkins Pipeline, выводящий в лог в два параллельных потока фразу "Hello world!"
 * Залить playbook и Pipeline в любой публичный git-репозиторий
+__________
